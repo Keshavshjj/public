@@ -342,7 +342,7 @@ def show_command_logs(message):
 @bot.message_handler(commands=['help'])
 def show_help(message):
     help_text ='''
- /chodo : BGMI WALO KI MAA KO CHODO. 
+ /attack : BGMI WALO KI MAA KO CHODO. 
  /rules : GWAR RULES PADHLE KAM AYEGA !!.
  /mylogs : SAB CHUDAI DEKHO.
  /plan : SABKE BSS KA BAT HAI.
