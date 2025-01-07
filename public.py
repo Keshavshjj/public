@@ -6,7 +6,7 @@ from keep_alive import keep_alive
 keep_alive()
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7474892140:AAHNwdLAS24fpkASy7XJseZxAabkBhavJec')
+bot = telebot.TeleBot('7083053513:AAHZ_j_a3bFBu_V2ngUzE2x4wfEIdYZvHxA')
 
 # Admin user IDs
 admin_id = {"1163610781"}
@@ -292,8 +292,8 @@ def handle_attack(message):
             port = int(command[2])  # Convert port to integer
             time = int(command[3])  # Convert time to integer
 
-            if time > 180:
-                response = "Error: Time Limit 180 Sec, Buy From @PsychoVillain19 For More Time"
+            if time > 120:
+                response = "Error: Time Limit 120 Sec, Buy From @PsychoVillain19 For More Time"
             else:
                 attack_running = True  # Set the attack state to running
                 try:
